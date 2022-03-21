@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+  background: linear-gradient(115.4deg, rgba(2, 72, 136, 0.89) 0%, rgba(215, 221, 227, 0.87) 105.59%);
+  font-family: 'Roboto', sans-serif;
+}
+
+footer{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background-color:#ECF4FF;
+  color: #1C1C1C;
+  border-radius: 20px; 
+  margin: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 10px;
+}
+
+.container{
+  background:#ECF4FF;
+  color: #1C1C1C;
+  border-radius: 20px; 
+  margin: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 40px;
+}
+
+.cabecalho{
+  display:flex;
+  justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+}
+
+.titulo {
+  margin-left: 15px;
+}
+
+.titulo h1 {
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+
+
+.tema button{
+  align-self: flex-end;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 3px;
+  border-style: solid;
+  border-color: #888888;
+  color: #888888;
+}
+
+.projetos{
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  padding: 10px;
+  background: linear-gradient(115.4deg, rgba(63, 124, 181, 0.93) 0%, rgba(219, 221, 223, 0.75) 105.59%);
+  border-radius: 25px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+}
+
+.footerDiv {
+  display: flex;
+  margin-left: auto;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.projetos-titulo{
+  font-weight:bold;
+  list-style: none;
+  font-size: 25px;
+}
+
+.projetos-item{
+    list-style-type: none;
+    line-height: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.projetos-a:link, .projects-a:hover, .projects-a:active, .projetos-a:visited{
+  color: #1C1C1C;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#foto {
+  max-height: 150px;
+  border-radius: 100%;
+  margin: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 10px;
+  border-style: solid;
+  border-color: #3468A7;
+  
+}
+
+.dark {
+   background: linear-gradient(115.4deg, #687683 105.59%, #0B253D 0%);
+}
+
+.dark .container{
+  background: linear-gradient(115.4deg, #292929 0%, rgba(99, 100, 101, 0.87) 105.59%);
+}
+.dark .perfil{
+  color: #C1C1C1;
+}
+
+.dark .cabecalho .tema button{
+  background: #292929;
+  color: #C1C1C1;
+}
+
+.dark footer{
+   background: linear-gradient(115.4deg, #292929 0%, rgba(99, 100, 101, 0.87) 105.59%);
+  color: #C1C1C1;
+}
+
+.dark #foto{
+  border-color: #818181;
+}
+
+.dark .projetos{
+  background: linear-gradient(115.4deg, rgba(200, 200, 200, 0.75) 0%, rgba(242, 247, 252, 0.56) 105.59%);
+}
